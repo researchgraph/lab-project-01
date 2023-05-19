@@ -231,7 +231,6 @@ export function forceGraph(data, d3, html, {
   stop.addEventListener('click', () => pausePlay());
   toolbar.appendChild(stop);
   container.appendChild(svg.node());
-  
   return container;
 }
 
