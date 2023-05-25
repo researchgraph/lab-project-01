@@ -93,6 +93,9 @@ export function forceGraph(data, d3, html, {
       return getIcon(G[i]);    
     });
 
+
+  // Code to add labels below the node
+  // alignment and size not working  
   // node.append("rect")
   //   .attr("class", "text-box")
   //   .attr("x", -15)
